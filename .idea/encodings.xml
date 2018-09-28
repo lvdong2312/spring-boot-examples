@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/dockercompose-springboot-mysql-nginx/app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-banner" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-commandLineRunner" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-docker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-file-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-file-upload/src/main/resources/templates/from_file.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/spring-boot-hello" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-helloWorld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-jpa-thymeleaf-curd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-mail" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-memcache-spymemcached" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-mybatis-annotation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-mybatis-annotation-mulidatasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-mybatis-mulidatasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-mybatis-xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-package-war" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-scheduler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-thymeleaf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-web-thymeleaf" charset="UTF-8" />
+  </component>
+</project>

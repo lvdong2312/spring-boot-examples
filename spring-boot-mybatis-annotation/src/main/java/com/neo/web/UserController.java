@@ -10,10 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.neo.entity.UserEntity;
 import com.neo.mapper.UserMapper;
 
+import javax.annotation.Resource;
+
 @RestController
 public class UserController {
-	
-	@Autowired
+
+	@Resource
 	private UserMapper userMapper;
 	
 	@RequestMapping("/getUsers")

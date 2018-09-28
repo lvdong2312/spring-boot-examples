@@ -13,11 +13,13 @@ import org.springframework.test.context.junit4.SpringRunner;
 import com.neo.entity.UserEntity;
 import com.neo.enums.UserSexEnum;
 
+import javax.annotation.Resource;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class User1MapperTest {
 
-	@Autowired
+	@Resource
 	private User1Mapper userMapper;
 
 	@Test

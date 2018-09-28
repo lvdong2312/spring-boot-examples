@@ -11,13 +11,15 @@ import org.springframework.web.bind.annotation.RestController;
 import com.neo.entity.UserEntity;
 import com.neo.mapper.test2.User2Mapper;
 
+import javax.annotation.Resource;
+
 @RestController
 public class UserController {
 
-    @Autowired
+    @Resource
     private User1Mapper user1Mapper;
 
-	@Autowired
+	@Resource
 	private User2Mapper user2Mapper;
 	
 	@RequestMapping("/getUsers")
