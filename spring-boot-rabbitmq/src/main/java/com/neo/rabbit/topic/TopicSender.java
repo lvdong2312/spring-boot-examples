@@ -15,19 +15,19 @@ public class TopicSender {
 	public void send() {
 		String context = "hi, i am message all";
 		System.out.println("Sender : " + context);
-		this.rabbitTemplate.convertAndSend("topicExchange", "topic.1", context);
+		this.rabbitTemplate.convertAndSend("topicExchange", "t.1", context);
 	}
 
 	public void send1() {
 		String context = "hi, i am message 1";
 		System.out.println("Sender : " + context);
-		this.rabbitTemplate.convertAndSend("topicExchange", "topic.message", context);
+		this.rabbitTemplate.convertAndSend("topicExchange", "t.m", context);
 	}
 
 	public void send2() {
 		String context = "hi, i am messages 2";
 		System.out.println("Sender : " + context);
-		this.rabbitTemplate.convertAndSend("topicExchange", "topic.messages", context);
+		this.rabbitTemplate.convertAndSend("topicExchange", "t.ms", context);
 	}
 
 }

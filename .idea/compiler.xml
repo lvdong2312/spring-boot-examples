@@ -21,7 +21,9 @@
         <module name="spring-boot-mybatis-mulidatasource" />
         <module name="spring-boot-mybatis-xml" />
         <module name="spring-boot-package-war" />
+        <module name="spring-boot-rabbitmq" />
         <module name="spring-boot-scheduler" />
+        <module name="spring-boot-shiro" />
         <module name="spring-boot-thymeleaf" />
         <module name="spring-boot-web" />
         <module name="spring-boot-web-thymeleaf" />
@@ -44,7 +46,9 @@
       <module name="spring-boot-mybatis-mulidatasource" target="1.8" />
       <module name="spring-boot-mybatis-xml" target="1.8" />
       <module name="spring-boot-package-war" target="1.7" />
+      <module name="spring-boot-rabbitmq" target="1.8" />
       <module name="spring-boot-scheduler" target="1.8" />
+      <module name="spring-boot-shiro" target="1.8" />
       <module name="spring-boot-thymeleaf" target="1.8" />
       <module name="spring-boot-web" target="1.8" />
       <module name="spring-boot-web-thymeleaf" target="1.8" />

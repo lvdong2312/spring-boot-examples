@@ -3,8 +3,6 @@ spring:
       url: jdbc:mysql://localhost:3306/test
       username: root
       password: root
-      #schema: database/import.sql
-      #sql-script-encoding: utf-8
       driver-class-name: com.mysql.jdbc.Driver
 
     jpa:
@@ -21,3 +19,18 @@ spring:
     thymeleaf:
        cache: false
        mode: LEGACYHTML5
+#       thymeleaf的配置是为了去掉html的校验
+
+# Redis数据库索引（默认为0）
+    redis:
+      database : 0
+      host : 127.0.0.1
+      port: 6379 # Redis服务器连接端口
+      password:
+      timeout: 0
+      pool:
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+    session:
+      store-type: none

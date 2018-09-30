@@ -1,4 +1,4 @@
-package com.neo.config;
+package com.neo.shiro;
 
 import com.neo.entity.SysPermission;
 import com.neo.entity.SysRole;

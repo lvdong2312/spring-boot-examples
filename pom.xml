@@ -26,6 +26,8 @@
         <module>spring-boot-thymeleaf</module>
         <module>spring-boot-web-thymeleaf</module>
         <module>spring-boot-jpa-thymeleaf-curd</module>
+        <module>spring-boot-rabbitmq</module>
         <module>spring-boot-mail</module>
+        <module>spring-boot-shiro</module>
     </modules>
 </project>

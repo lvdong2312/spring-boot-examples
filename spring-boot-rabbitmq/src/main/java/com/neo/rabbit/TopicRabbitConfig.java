@@ -31,11 +31,11 @@ public class TopicRabbitConfig {
 
     @Bean
     Binding bindingExchangeMessage(Queue queueMessage, TopicExchange exchange) {
-        return BindingBuilder.bind(queueMessage).to(exchange).with("topic.message");
+        return BindingBuilder.bind(queueMessage).to(exchange).with("t.m");
     }
 
     @Bean
     Binding bindingExchangeMessages(Queue queueMessages, TopicExchange exchange) {
-        return BindingBuilder.bind(queueMessages).to(exchange).with("topic.#");
+        return BindingBuilder.bind(queueMessages).to(exchange).with("t.#");
     }
 }
